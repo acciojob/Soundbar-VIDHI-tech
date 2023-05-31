@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
- .buttons-container {
+ #buttons {
             padding: 40px 20px;
             background-color: #A064DF;
             display: flex;
