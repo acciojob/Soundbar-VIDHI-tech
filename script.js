@@ -26,7 +26,7 @@ for(let i = 0; i < buttonss.length; i++) {
         if(audios.includes(innerText)){
             // play that particular audio
             let audioElement = document.createElement("audio");
-            audioElement.src = `./test.mp3`;
+            audioElement.src = `./sounds/${innerText}.mp3`;
             audioElement.controls = true ;
             activeAudio = audioElement;
 			playAudio();
