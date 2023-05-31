@@ -8,7 +8,7 @@ let audios = [
                 "wrong"
 ];
 let activeAudio = null ;
-const buttons = document.getElementsByTagName("button");
+const buttonss = document.getElementsByTagName("button");
 
 function playAudio(){
     stopAudio();
@@ -20,8 +20,8 @@ function stopAudio(){
 	}
 }
 
-for(let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("click", (event) => {
+for(let i = 0; i < buttonss.length; i++) {
+    buttonss[i].addEventListener("click", (event) => {
         let innerText = event.target.innerText ;
         if(audios.includes(innerText)){
             // play that particular audio
